@@ -1,0 +1,55 @@
+body {
+      margin: 0;
+      height: 100vh;
+      background-image: url(Gm.jpg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .kruk{
+      display: flex;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      font-size: 16px;
+      border: 2px solid;
+      background-color: white;
+      color: inherit;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn.one {
+      color: #000000;
+      border-color: #000000;
+    }
+    .btn.two {
+      color: #000000;
+      border-color: #000000;
+    }
+    .btn.three {
+      color: #000000;
+      border-color: #000000;
+    }
+    .btn.four {
+      color: #000000;
+      border-color: #000000;
+    }
+    .btn.one:hover {
+      background-color: #e74c3c;
+      color: white;
+    }
+    .btn.two:hover {
+      background-color: #27ae60;
+      color: white;
+    }
+    .btn.three:hover {
+      background-color: #27ae60;
+      color: white;
+    }
+    .btn.four:hover {
+      background-color: #27ae60;
+      color: white;
+    }
